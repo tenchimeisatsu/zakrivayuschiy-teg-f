@@ -18,6 +18,8 @@
       transparent 4px
     ),
     linear-gradient(180deg, #007f0c, #004306);
+  --reverse-color: #00cc14;
+    --heart-main-color: #00cc14;
 }
 :root.theme-light {
   --card-main-text-weight: "wght" 400;
@@ -39,6 +41,8 @@
       transparent 4px
     ),
     linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --reverse-color: #ffffff;
+  --heart-main-color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -62,5 +66,7 @@
         transparent 4px
       ),
       linear-gradient(180deg, #007f0c, #004306);
+    --reverse-color: #00cc14;
+    --heart-main-color: #00cc14;
   }
 }

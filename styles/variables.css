@@ -20,8 +20,24 @@
       transparent 4px
     ),
     linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
-    --title-line-hieght: 65px;
-    --subtitle-line-hieght: 14px;
-    --title-margin-top: 23px;
-
+  --title-line-hieght: 65px;
+  --subtitle-line-hieght: 23px;
+  --title-margin-top: 136px;
+  --card-width: clamp(
+    375px,
+    calc(700 / 1440 * 100%),
+    700px
+  ); /*Рекомендованное значение - отношение ширины карточек и ширины страницы из макета */
+  --header-height: 368px;
+  --card-decor-text-position: 25px;
+  --reverse-color: #ffffff;
+  --heart-main-color: #000000;
+  --heart-sparks-color: red;
+  --floppy-image-size: 21px;
+  --save-button-direction: row;
+  --save-button-height: 55px;
+  --save-button-width: 335px;
+  --floppy-image-position: 14px 295px 15px 17px;
+  --save-text-position: 19px 15px 16px 42px;
+  --modal-width: 357px;
 }
