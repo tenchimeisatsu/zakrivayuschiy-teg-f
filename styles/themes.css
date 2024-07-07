@@ -19,7 +19,7 @@
     ),
     linear-gradient(180deg, #007f0c, #004306);
   --reverse-color: #00cc14;
-    --heart-main-color: #00cc14;
+  --heart-main-color: #00cc14;
 }
 :root.theme-light {
   --card-main-text-weight: "wght" 400;
