@@ -22,7 +22,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-style: var(--main-font);
-  font-variation-settings: var(--card-main-text-weight);
+  font-variation-settings: "wght" var(--card-main-text-weight);
   background-color: var(--background-color);
   color: var(--accent-color);
   background-image: var(--background-gradient);
@@ -139,7 +139,7 @@
 .card-title {
   font-family: var(--main-font);
   font-size: 18px;
-  font-variation-settings: var(--card-title-text-weight);
+  font-variation-settings: "wght" var(--card-title-text-weight);
   line-height: 21.78px;
   margin: 5px 10px 3px 10px;
 }
@@ -147,7 +147,7 @@
 .card-text {
   font-family: var(--main-font);
   font-size: 18px;
-  font-variation-settings: var(--card-main-text-weight);
+  font-variation-settings: "wght" var(--card-main-text-weight);
   line-height: 21px;
   margin: 0 25px 25px 25px;
 }
@@ -247,7 +247,6 @@
   height: 38px;
   width: 55px;
   background-color: transparent;
-  border: none;
   border: 2px solid transparent;
 }
 

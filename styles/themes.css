@@ -1,6 +1,6 @@
 :root.theme-dark {
-  --card-main-text-weight: "wght" 465;
-  --card-title-text-weight: "wght" 785;
+  --card-main-text-weight: 465;
+  --card-title-text-weight: 785;
   --background-color: #000000;
   --accent-color: #00cc14;
   --background-gradient: repeating-linear-gradient(
@@ -22,8 +22,8 @@
   --heart-main-color: #00cc14;
 }
 :root.theme-light {
-  --card-main-text-weight: "wght" 400;
-  --card-title-text-weight: "wght" 700;
+  --card-main-text-weight: 400;
+  --card-title-text-weight: 700;
   --background-color: #ffffff;
   --accent-color: #000000;
   --background-gradient: repeating-linear-gradient(
@@ -47,8 +47,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --card-main-text-weight: "wght" 465;
-    --card-title-text-weight: "wght" 785;
+    --card-main-text-weight: 465;
+    --card-title-text-weight: 785;
     --background-color: #000000;
     --accent-color: #00cc14;
     --background-gradient: repeating-linear-gradient(
