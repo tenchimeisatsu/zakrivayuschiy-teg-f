@@ -167,6 +167,7 @@
 
 .card__decor-text {
   position: absolute;
+  z-index: 3;
   mix-blend-mode: hard-light;
   top: 27px;
   right: var(--card-decor-text-position);
@@ -416,6 +417,46 @@
   inset: 12px 132px 12px 132px;
   mix-blend-mode: difference;
   color: var(--reverse-color);
+}
+
+.start-image-filter {
+  -webkit-filter: brightness(110%) contrast(85%) saturate(75%) sepia(22%);
+  filter: brightness(110%) contrast(85%) saturate(75%) sepia(22%);
+}
+
+.whlist-image-filter {
+  -webkit-filter: brightness(120%) contrast(90%) saturate(110%);
+  filter: brightness(120%) contrast(90%) saturate(110%);
+}
+
+.challange-image-filer {
+  -webkit-filter: brightness(90%) contrast(95%) grayscale(50%);
+  filter: brightness(90%) contrast(95%) grayscale(50%);
+}
+
+.scary-image-filter {
+  -webkit-filter: contrast(150%) saturate(110%);
+  filter: contrast(150%) saturate(110%);
+}
+
+.support-image-filter {
+  -webkit-filter: brightness(90%) contrast(150%);
+  filter: brightness(90%) contrast(150%);
+}
+
+.problem-image-filter {
+  -webkit-filter: contrast(90%) sepia(20%);
+  filter: contrast(90%) sepia(20%);
+}
+
+.sad-image-filter {
+  -webkit-filter: brightness(110%) contrast(110%) grayscale(100%);
+  filter: brightness(110%) contrast(110%) grayscale(100%);
+}
+
+.prod-image-filter {
+  -webkit-filter: brightness(90%) contrast(150%);
+  filter: brightness(90%) contrast(150%);
 }
 
 @media screen and (width <= 375px) {
