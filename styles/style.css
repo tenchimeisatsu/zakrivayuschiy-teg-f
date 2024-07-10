@@ -406,6 +406,7 @@
   }
 }
 
+/* Данные свойства новые и не распознаются W3C, однако они есть в рекомендации к проектной работе и автотестах. */
 @supports (
   (text-stroke: 1px var(--background-color)) or
     (-webkit-text-stroke: 1px #000000)
@@ -414,7 +415,5 @@
     -webkit-text-stroke: 1px var(--background-color);
     text-stroke: 1px var(--background-color);
     text-shadow: none;
-  } 
+  }
 }
-
-/* Данные свойства новые и не распознаются W3C, однако они есть в рекомендации к проектной работе и автотестах. */
