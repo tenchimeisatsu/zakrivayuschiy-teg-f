@@ -22,8 +22,8 @@
   </head>
   <body class="page">
     <header class="header card">
-      <h1 class="header__title">&lt;/html&gt;</h1>
-      <h2 class="header__subtitle">Закрывающий тег</h2>
+      <a class="header__title">&lt;/html&gt;</a>
+      <h1 class="header__subtitle">Закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -53,13 +53,13 @@
     <main class="main">
       <section class="cards-section">
         <article class="card">
-          <h3 class="card-title">
+          <h2 class="card-title">
             Фритрек и нулевой спринт: Подготовка к работе
-          </h3>
+          </h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/сомнения&gt;</span>
             <img
-              class="card-image start-image-filter"
+              class="card-image filter-reyes"
               src="./images/start.jpg"
               alt="Комикс про программиста и кота"
             />
@@ -76,8 +76,9 @@
             опускать руки, то кто будет их кормить?
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -109,17 +110,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">1 спринт: Я — чистый лист</h3>
+          <h2 class="card-title">1 спринт: Я — чистый лист</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/концентрация&gt;</span>
             <img
-              class="card-image whlist-image-filter"
+              class="card-image filter-hudson"
               src="./images/wlist.jpg"
               alt="Фотография кота за столом"
             />
@@ -137,8 +138,9 @@
             если поймаешь, на ней можно далеко уплыть.
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -170,17 +172,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">1 спринт: А если не получится?</h3>
+          <h2 class="card-title">1 спринт: А если не получится?</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/вызов&gt;</span>
             <img
-              class="card-image challange-image-filer"
+              class="card-image filter-willow"
               src="./images/challange.jpg"
               alt="Фотография грустного кота"
             />
@@ -198,8 +200,9 @@
             становится интересно, какой же вызов бросит мне обучение дальше?
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -231,17 +234,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">2 спринт: Погоня за идеалом</h3>
+          <h2 class="card-title">2 спринт: Погоня за идеалом</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/будущее&gt;</span>
             <img
-              class="card-image scary-image-filter"
+              class="card-image filter-lofi"
               src="./images/scary.jpg"
               alt="Фотография зевающего кота"
             />
@@ -259,8 +262,9 @@
             сможешь ли угаться. Все же, дорогу осилит идущий.
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -292,17 +296,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">2 спринт: О тех, кто рядом</h3>
+          <h2 class="card-title">2 спринт: О тех, кто рядом</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/поддержка&gt;</span>
             <img
-              class="card-image support-image-filter"
+              class="card-image filter-toaster"
               src="./images/Support.jpg"
               alt="Фотография кота повисшего на заборе"
             />
@@ -320,8 +324,9 @@
             помогал и проявлял терпение. Без вас бы меня здесь не было.
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -353,17 +358,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">3 спринт: Обходные стратегии</h3>
+          <h2 class="card-title">3 спринт: Обходные стратегии</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/подход&gt;</span>
             <img
-              class="card-image problem-image-filter"
+              class="card-image filter-earlybird"
               src="./images/problem.jpg"
               alt="Фотография котов смотрящих на машь"
             />
@@ -379,8 +384,9 @@
             найти новый подход - лучший выбор.
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -412,17 +418,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">3 спринт: Когда опускаются руки</h3>
+          <h2 class="card-title">3 спринт: Когда опускаются руки</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/время&gt;</span>
             <img
-              class="card-image sad-image-filter"
+              class="card-image filter-moon"
               src="./images/sad.jpg"
               alt="Фотография грустного кота"
             />
@@ -441,8 +447,9 @@
             последнего плохое решение. Хотя, каюсь, сам грешен...
           </p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -474,17 +481,17 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
         <article class="card">
-          <h3 class="card-title">«Сейчас я здесь»</h3>
+          <h2 class="card-title">«Сейчас я здесь»</h2>
           <div class="card__decor">
             <span class="card__decor-text">&lt;/предвкушение&gt;</span>
             <img
-              class="card-image prod-image-filter"
+              class="card-image filter-brooklyn"
               src="./images/prod.jpg"
               alt="Фотография котов"
             />
@@ -499,8 +506,9 @@
           </p>
           <p class="card-text">Per aspera ad astra</p>
           <div class="button-card-section">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="38"
@@ -532,7 +540,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -540,27 +548,27 @@
       </section>
       <section class="save-section">
         <button
-          class="save-button"
+          class="button save-button"
           onclick="window.modal.showModal();"
           type="button"
         >
-          <svg class="floppy-image" viewBox="0 0 39 39">
+          <svg aria-hidden="true" class="floppy-image" viewBox="0 0 39 39">
             <use href="./svg/card.svg#floppy" />
           </svg>
-          <span class="button__save-text">Сохранить на память</span>
+          <span class="button__text">Сохранить на память</span>
         </button>
       </section>
     </main>
     <dialog class="modal" id="modal">
       <div class="modal-section">
-        <svg class="modal-floppy-image" viewBox="0 0 39 39">
+        <svg aria-hidden="true" class="modal-floppy-image" viewBox="0 0 39 39">
           <use href="./svg/card.svg#floppy" />
         </svg>
         <p>Вставьте дискету, чтобы продолжить</p>
       </div>
       <form method="dialog">
-        <button type="submit" class="modal-button">
-          <span class="modal-button-text">Ок</span>
+        <button type="submit" class="button modal-button">
+          <span class="button__text">Ок</span>
         </button>
       </form>
     </dialog>
